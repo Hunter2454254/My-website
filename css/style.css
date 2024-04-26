@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #D2B48C; /* Adjust as needed */
+    color: #fff; /* Adjust text color as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .navbar-section {
+    /* Adjust width as needed */
+    width: 30%; /* Each section takes up 30% of the navbar width */
+  }
+  img {
+    border-radius: 50%;
+    border: 2px solid #000000;
+  }
