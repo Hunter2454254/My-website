@@ -1,216 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drake & Kanye West</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg color font nav">
-    <div class="container-fluid ">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Drake & Kanye West</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#about">About Artists
-            </a>
+            <a class="nav-link" href="#drake">Drake</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#best">Artists best songs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#songs">Artist Songs</a>
+            <a class="nav-link" href="#kanye">Kanye West</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container-fluid">
-    <div id="about" class="row mt-5 justify-content-center">
-      <div class="col mt-6">
-        <div class="card" style="width: 19rem;">
-          <img src="img/13drake-span-articleLarge.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Drake, born Aubrey Drake Graham on October 24, 1986, in Toronto, Canada, is a versatile
-              artist known for his chart-topping music and entrepreneurial ventures. Rising from his acting roots in
-              "Degrassi: The Next Generation," Drake quickly made a mark in the music industry with hits like "Hotline
-              Bling" and "God's Plan." Beyond music, he's founded the record label OVO Sound and the clothing line OVO
-              (October's Very Own), showcasing his influence both on and off the stage.
-            </p>
+  <main class="container my-5">
+    <section id="drake" class="mb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h2 class="text-center mb-4">Drake</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/13drake-span-articleLarge.webp" class="img-fluid rounded" alt="Drake">
+            </div>
+            <div class="col-md-6">
+              <h3>Biography</h3>
+              <p>Aubrey Drake Graham, known professionally as Drake, is a Canadian rapper, singer, songwriter, actor,
+                and businessman. Born on October 24, 1986, in Toronto, Ontario, Drake gained recognition as an actor on
+                the teen drama television series "Degrassi: The Next Generation" in the early 2000s.</p>
+              <h3 class="mt-4">Discography</h3>
+              <ul>
+                <li>Thank Me Later (2010)</li>
+                <li>Take Care (2011)</li>
+                <li>Nothing Was the Same (2013)</li>
+                <li>Views (2016)</li>
+                <li>Scorpion (2018)</li>
+                <li>Certified Lover Boy (2021)</li>
+              </ul>
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col mt-6">
-        <div class="card" style="width: 19rem;">
-          <img src="img/kanye-west-0814-GQ-FEKW01.01.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Kanye West, born on June 8, 1977, in Atlanta, Georgia, is an influential force in
-              music, fashion, and culture. Emerging as a producer for Roc-A-Fella Records, West's solo career soared
-              with groundbreaking albums like "The College Dropout" and "Late Registration." His impact transcends
-              music, with ventures like the Yeezy clothing line and collaborations with top designers reshaping the
-              fashion landscape. Despite controversy, West's artistic vision and boundary-pushing creativity cement his
-              status as a cultural icon.</p>
+    </section>
+
+    <section id="kanye" class="mb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h2 class="text-center mb-4">Kanye West</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="img/kanye-west-0814-GQ-FEKW01.01.webp" class="img-fluid rounded" alt="Kanye West">
+            </div>
+            <div class="col-md-6">
+              <h3>Biography</h3>
+              <p>Kanye Omari West is an American rapper, singer, songwriter, record producer, and fashion designer. Born
+                on June 8, 1977, in Atlanta, Georgia, West first became known as a producer for Roc-A-Fella Records. He
+                gained widespread fame with his 2004 album "The College Dropout" and has since released several
+                critically acclaimed albums, including "Late Registration" (2005), "Graduation" (2007), and "My
+                Beautiful Dark Twisted Fantasy" (2010).</p>
+              <h3 class="mt-4">Discography</h3>
+              <ul>
+                <li>The College Dropout (2004)</li>
+                <li>Late Registration (2005)</li>
+                <li>Graduation (2007)</li>
+                <li>808s & Heartbreak (2008)</li>
+                <li>My Beautiful Dark Twisted Fantasy (2010)</li>
+                <li>Yeezus (2013)</li>
+                <li>The Life of Pablo (2016)</li>
+                <li>Ye (2018)</li>
+                <li>Jesus Is King (2019)</li>
+              </ul>
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div id="best" class="row mt-5 justify-content-center">
+    </section>
+    <div class="row justify-content-center">
       <div class="col-6">
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+        <section id="gallery">
+          <h2 class="text-center mb-4">Photo Gallery</h2>
+          <div id="gallery-carousel" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Drake-Nothing-Was-The-Same-deluxe-album-cover-web-optimised-820.jpg" class="d-block w-100"
+                  alt="Gallery 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/778fca66-4988-4a97-a923-3c38087f5968.sized-1000x1000.jpg" class="d-block w-100"
+                  alt="Gallery 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Drake_-_Views_cover.jpg" class="d-block w-100" alt="Gallery 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gallery-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/Drake-Nothing-Was-The-Same-deluxe-album-cover-web-optimised-820.jpg" class="d-block w-100"
-                alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Nothing Was The Same</h5>
-                <a href="https://en.wikipedia.org/wiki/Nothing_Was_the_Same">Album Here</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Scorpion_by_Drake.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Scorpian</h5>
-                <a href="https://en.wikipedia.org/wiki/Scorpion_(Drake_album)">Album Here</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Drake_-_Views_cover.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Views</h5>
-                <a href="https://en.wikipedia.org/wiki/Views_(album)">Album Here</a>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <div class="col-6">
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/Drake-Nothing-Was-The-Same-deluxe-album-cover-web-optimised-820.jpg" class="d-block w-100"
-                alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Nothing Was The Same</h5>
-                <a href="https://en.wikipedia.org/wiki/Nothing_Was_the_Same">Album Here</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Scorpion_by_Drake.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Scorpian</h5>
-                <a href="https://en.wikipedia.org/wiki/Scorpion_(Drake_album)">Album Here</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Drake_-_Views_cover.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Views</h5>
-                <a href="https://en.wikipedia.org/wiki/Views_(album)">Album Here</a>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        </section>
       </div>
     </div>
-  </div>
-<div class="container-fluid">
-  <div id="songs" class="row mt-5 justify-content-center">
-    <div class="col md-6">
-      <button type="button" class="btn btn-dark">Dark</button>
-    </div>
-    <div class="col">
-      <button type="button" class="btn btn-dark">Dark</button>
-    </div>
-    <div class="col">
-      <button type="button" class="btn btn-dark">Dark</button>
-    </div>
-    <div class="col">
-      <button type="button" class="btn btn-dark">Dark</button>
-    </div>
-    <div class="col">
-      <button type="button" class="btn btn-dark">Dark</button>
-    </div>
-  </div>
-</div>
-<div class="container-fluid">
-  <div class="row mt-5 justify-content-center">
-    <div class="col md-6">
-      <H1>Random Songs</H1>
-      <a href=""></a>
-    </div>
-  </div>
-</div>
 
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container-fluid">
+        <p>&copy; 2024 Drake & Kanye West. All rights reserved.</p>
+      </div>
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </html>
